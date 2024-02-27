@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  #hero-section {
+    background-image: url('./image/back.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #3b2f2f; */
+    color: var(--bs-gray-700);
+    text-align: center;
+  }
+  .card:hover{
+          transform:scale(1.05) ;
+          border-radius: 20px;
+          transition:all 1s  ease-in-out;
+      }
+      .card{
+        width: 350px;
+        height: 500px;
+      }
+
+  
